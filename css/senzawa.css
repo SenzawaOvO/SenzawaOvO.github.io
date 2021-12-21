@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background:url(../img/bg.jpg);
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+#date{
+    width: 400px;
+    height: 500px;
+    border: 2px solid orange;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    position: fixed;
+}
+#ym{
+    height: 100px;
+    line-height: 100px;
+}
+#d{
+    height: 200px;
+    line-height: 200px;
+    background-color: orange;
+    font-size: 70px;
+}
+#w{
+    height: 100px;
+    line-height: 100px;
+}
+#hms{
+    height: 100px;
+    line-height: 100px;
+}
+.head{
+    height: 40px;
+    position: absolute;
+    left: 450px;
+    background-color: palegreen;
+    border-radius: 30px;
+    top: 10px;
+    width: 100%;
+}
+.head ul{
+    list-style: none;
+}
+.head li{
+    line-height: 40px;
+    float: left;
+    padding-left: 120px;
+    padding-right: 120px;
+    border-right: rebeccapurple 1px dashed;
+    font-weight: bold;
+    font-size: 27px;
+    position: relative;
+}
+.head a{
+    text-decoration: none;
+    color: plum;
+    line-height: 30px;
+    position: relative;
+}
+.head a:hover{
+    border: deeppink 1px;
+    background-color: deepskyblue;
+    border-radius: 15px;
+    text-decoration: underline;
+}
+.page{
+    position: absolute;
+    left: 480px;
+    top: 100px;
+}
+.page h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: deepskyblue;
+    font-size: 40px;
+    font-weight: bold;
+}
+.page li{
+    line-height: 40px;
+    color: lightseagreen;
+    font-size: 25px;
+    padding: 30px;
+}
+.page img{
+    width: 5%;
+    height: 5%;
+}

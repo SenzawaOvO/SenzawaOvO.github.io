@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url(../img/start.jpg);
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    
+}
+button{
+    width: 200px;
+    height: 50px;
+    border: 1px aqua solid;
+    border-radius: 30px;
+    background-color: brown;
+    position: absolute;
+    top: 510px;
+    left: 830px;
+}
