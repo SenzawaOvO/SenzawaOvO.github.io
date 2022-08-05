@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(../img/qx.jpg);
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+div{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 15px;
+    border: 3px palevioletred dashed;
+    border-radius: 45px;
+}
+/* .start{
+    color: aquamarine;
+    margin-left: 100px;
+}
+.exp{
+    color: aquamarine;
+    margin-left: 100px;
+}
+.tb{
+    color: aquamarine;
+    margin-left: 100px;
+} */
+div h3{
+    color: red;
+    text-align: center;
+    padding: 15px;
+}
+h1{
+    text-align: center;
+    color: aquamarine;
+    margin: 20px;
+}
